@@ -1,34 +1,57 @@
-# User Authentication system
+# User Authentication System
 
 ## Overview
-This repository contains the implementation of User Authentication system.
+This is a Django Web Application primarily written in Python.
+
+## Project Structure
+Key files:
+- `manage.py`
 
 ## Features
-- Feature 1
-- Feature 2
-- Feature 3
+- Django Framework
+- Object-Oriented Programming
+
+## Dependencies
+- Django==3.2.6
+- Pillow
+- python-dotenv==0.19.0
+- social-auth-app-django==5.0.0
 
 ## Installation
-```bash
-# Clone the repository
-git clone https://github.com/yassin549/User-Authentication-system.git
 
-# Navigate to the project directory
-cd User-Authentication-system
+1. Clone this repository:
+ ```bash
+ git clone [repository-url]
+ cd User Authentication system
+ ```
 
-# Install dependencies (if any)
-# pip install -r requirements.txt
-```
+2. Install Python dependencies:
+ ```bash
+ pip install -r requirements.txt
+ ```
 
 ## Usage
-Describe how to use the project here.
+
+1. Apply migrations:
+ ```bash
+ python manage.py migrate
+ ```
+
+2. Start the development server:
+ ```bash
+ python manage.py runserver
+ ```
+
+3. Open your browser and navigate to `http://localhost:8000`
 
 ## Contributing
+
 1. Fork the repository
-2. Create your feature branch
+2. Create a new branch for your feature
 3. Commit your changes
 4. Push to the branch
 5. Create a new Pull Request
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+This project is open-source, all contributions are welcome.
